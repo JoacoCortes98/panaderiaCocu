@@ -1,0 +1,40 @@
+.dulce {
+  position: relative;
+  filter: grayscale(45%);
+}
+
+.dulce:hover {
+  bottom: 8px;
+  left: 3px;
+  filter: grayscale(0%);
+  transition: 850ms;
+}
+
+.panesYfacturas {
+position: relative;
+filter: grayscale(45%);
+}
+
+.salado {
+  position: relative;
+  filter: grayscale(45%);
+}
+
+.salado:hover {
+  bottom: 8px;
+  left: 3px;
+  filter: grayscale(0%);
+  transition: 800ms;
+}
+.panesYfacturas:hover {
+  bottom: 8px;
+  left: 3px;
+  filter: grayscale(0%);
+  transition: 850ms;
+}
+
+@media all and (max-width: 767px) {
+  .banner-responsive {
+    height: 225px;
+  }
+}
